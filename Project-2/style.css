@@ -1,0 +1,34 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Logo_of_the_United_States_Army.svg/800px-Logo_of_the_United_States_Army.svg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: 50px;
+    background-attachment: fixed;
+    background-size: 150px;
+    color: #fcfcfc;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+form {
+    width: 100%;
+    margin: 25px 0;
+    padding: 50px 30px;
+    background: #ececec;
+    color: #212121;
+    display: flex; flex-direction: row; align-items: space-between;
+}
+form > div {display: flex; flex-direction: column; align-items: flex-start; width: 50%;}
+input, select {margin: 5px 0 20px 0; padding: 10px 5px;}
+p {margin-bottom: 5px}
+button {margin: 10px 0; padding: 5px 10px; cursor: pointer;}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeCodeCamp Certif Project #2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1 id="title">Mock Enlistment Form</h1>
+        <p id="description">Example HTML5 form.</p>
+        <form id="survey-form">
+            <div>
+                <label for="name" id="name-label">Full name</label>
+                <input type="text" name="name" id="name" required placeholder="John Doe" />
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="johndoe@email.com" required />
+                <label for="age" id="number-label">Age</label>
+                <input type="number" name="age" id="number" min="18" max="40" placeholder="18" />
+                <label for="role">Role</label>    
+                <select name="role"id="dropdown">
+                    <option value="rifleman">Rifleman</option>
+                    <option value="grenadier">Grenadier</option>
+                    <option value="marksman">Marksman</option>
+                </select>
+                <p>Sex</p>
+                <label for="sex-male">
+                    <input type="radio" name="sex" id="sex-male" value="male" />
+                    Male
+                </label>
+                <label for="sex-female">
+                    <input type="radio" name="sex" id="sex-female" value="female" />
+                    Female
+                </label>
+            </div>
+            <div>
+                <p>Familiar firearms</p>
+                <label for="m4a1">
+                    <input type="checkbox" name="m4a1" id="m4a1" value="aug" />
+                    M4A1
+                </label>
+                <label for="m14">
+                    <input type="checkbox" name="m14" id="m14" value="aug" />
+                    M14
+                </label>
+                <label for="aug">
+                    <input type="checkbox" name="aug" id="aug" value="aug" />
+                    AUG
+                </label>
+                <p>
+                    Motivation
+                </p>
+                <textarea name="motivation" id="motivation" cols="40" rows="10"></textarea>
+                <button type="submit" id="submit">Enlist</button>   
+            </div>
+        </form>
+    </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
