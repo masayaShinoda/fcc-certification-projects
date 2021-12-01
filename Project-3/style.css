@@ -1,0 +1,32 @@
+@font-face {font-family: Magic-Cards; src: url('./magic-cards.ttf')}
+
+:root {
+    --brown: #553213;
+}
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+header, main {
+    /* width: 1000; max-width: 1000px;  */
+    margin: 0 auto;   
+}
+@media (max-width: 640px) {
+    header, main {width: 92%; max-width: 92%;}
+}
+header {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    height: 150px;
+    width: 100%;
+    padding: 2.5% 10%;
+}
+header > a > img {max-width: 250px}
+nav {display: flex}
+nav > a {
+    text-decoration: none;
+    font-family: Magic-Cards, serif;
+    font-size: 1.2em;
+    color: var(--brown) !important;
+}
+/* nav > a:nth-of-type(even) {margin: 0 1em;} */
+
+input[type="submit"] {cursor: pointer}

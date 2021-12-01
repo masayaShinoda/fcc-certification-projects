@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeCodeCamp Certif Project #3</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script> 
+</head>
+<body>
+    <header id="header">
+        <a href="/">
+            <img 
+            src="https://upload.wikimedia.org/wikipedia/commons/2/28/The_Elder_Scrolls_III_-_Morrowind_-_Text_Logo.png" 
+            alt="Morrowind logo"
+                id="header-img"
+                />
+            </a>
+            <nav id="nav-bar">
+            <a href="#history" class="nav-link">History</a>
+            <a href="#storyline" class="nav-link">Storyline</a>
+            <a href="#factions" class="nav-link">Factions</a>
+            <a href="#map" class="nav-link">Map</a>
+        </nav>
+    </header>
+    <div class="container-fluid p-0">
+        <main>
+            <section 
+            class="
+                d-flex justify-content-center 
+                w-100 p-20
+                bg-dark
+            ">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/rSdfGT81mQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section class="
+                w-100
+                d-flex-column
+                align-items-center 
+                py-5 
+                px-3
+            ">
+                <div class="w-100">
+                    <h2 id="history">History</h2>
+                    <p>
+                        Led by the legendary prophet Veloth, the ancestors of the Dunmer, exiles from Altmer cultures in present-day Summerset Isle, came to the region of Morrowind. In earliest times the Dunmer were harassed or dominated by Nord sea raiders. When the scattered Dunmer tribes consolidated into the predecessors of the modern Great House clans, they threw out the Nord oppressors and successfully resisted further incursions.
+                        <br />
+                        The ancient ancestor worship of the tribes was in time superseded by the monolithic Tribunal Temple theocracy, and the Dunmer grew into a great nation called Resdayn. Resdayn was the last of the provinces to submit to Tiber Septim; like Black Marsh, it was never successfully invaded, and was peacefully incorporated by treaty into the Empire as the Province of Morrowind.
+                        <br />
+                        Almost four centuries after the coming of the Imperial Legions, Morrowind is still occupied by Imperial legions, with a figurehead Imperial King, though the Empire has reserved most functions of the traditional local government to the Ruling Councils of the Five Great Houses....
+                    </p>
+                </div>
+                <div class="w-100">
+                    <h2 id="storyline">Storyline</h2>
+                    <p>
+                        While Morrowind contains many quests and storylines, the central plot revolves around The Tribunal, a triumvirate of god-like beings ruling over Morrowind, and their struggle against a former ally, the deity Dagoth Ur and his Sixth House – a cult of followers stretching out from Red Mountain, the volcanic center of Vvardenfell, the island on which the game is set. Dagoth Ur has used the Heart of Lorkhan, an artifact of great power, to make himself immortal and now seeks to drive the Imperial Legion occupiers from Morrowind using his network of spies, as well as Akulakhan, an enormous mechanical golem powered by the Heart of Lorkhan.
+                    </p>
+                </div>
+                <div class="w-100">
+                    <h2 id="factions">Factions</h2>
+                    <p>
+                        To allow for this behavior, Morrowind, in addition to creating an extensive main quest, provides detailed discursive quests for a variety of factions, including various guilds, religious organizations, and aristocratic houses, in addition to side-quests found by exploration. The main plot itself may be undertaken in many ways. There are, in the words of critic Craig Lindley, "a very specific set of central plot points within this main plot. But the plot points are partially ordered: seven high-level tasks must be completed, but their constituent sub-tasks...can be accomplished in any order, and this is repeated for the sub-tasks involved in those sub-tasks." The choices the player makes in their performance of these tasks thus become methods of character interpretation; a set of dramatic tools establishing the player's newly created self-identity.
+                    </p>
+                    <h2 id="map">Map</h2>
+                    <iframe 
+                        class="w-75"
+                        style="height: 512px;" 
+                        src="https://esomap.uesp.net/mwmap.html?world=1&x=12928&y=47360&zoom=12" frameborder="0"></iframe>
+                </div>
+            </section>
+            <section class="
+                w-100
+                d-flex-column
+                align-items-center 
+                py-5 
+                px-3
+            ">
+                <h2>Explore Morrowind today:</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <label for="email">Your email</label>
+                    <input type="email" name="email" id="email" placeholder="nerevar@resdayn.com" />
+                    <input type="submit" id="submit" value="Submit" />
+                </form>
+            </section>
+
+    
+        </main>
+        <!-- <h1>The Elder Scrolls III: Morrowind</h1> -->
+
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+</body>
+</html>
+
+<!-- 
+
+
+
+
+User Story #12: When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).
+
+User Story #13: The navbar should always be at the top of the viewport.
+
+User Story #14: My product landing page should have at least one media query.
+
+User Story #15: My product landing page should utilize CSS flexbox at least once. -->
