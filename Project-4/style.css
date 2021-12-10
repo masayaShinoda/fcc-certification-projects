@@ -44,4 +44,19 @@ body {
       min-width: 233px;
     }
   }
-  
+
+  @media (max-width: 520px) {
+    #navbar {
+      display: none;
+    }
+    #main-doc {margin: 0 !important; padding-top: 100px !important}
+    #offCanvasBtn {
+      position: fixed;
+      top: 35px;
+      left: 15px;
+      z-index: 100;
+    }
+  }
+  @media (min-width: 520px) {
+    #offCanvasBtn {display: none}
+  }
