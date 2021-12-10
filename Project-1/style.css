@@ -26,3 +26,7 @@ figure img {
 figure figcaption {
   font-size: 80%;
 }
+
+@media (max-width: 640px) {
+  #main {width: 90%; max-width: 92%;}
+}
