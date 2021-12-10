@@ -60,3 +60,7 @@ body {
   @media (min-width: 520px) {
     #offCanvasBtn {display: none}
   }
+
+  section {
+    scroll-margin-top: 50px;
+  }
