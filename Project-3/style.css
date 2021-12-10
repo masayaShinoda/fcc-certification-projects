@@ -10,6 +10,9 @@ header, main {
     /* width: 1000; max-width: 1000px;  */
     margin: 0 auto;   
 }
+@media (min-width: 900px) {
+    main {max-width: 80ch}
+}
 @media (max-width: 640px) {
     header, main {width: 92%; max-width: 92%;}
 }
@@ -30,3 +33,28 @@ nav > a {
 /* nav > a:nth-of-type(even) {margin: 0 1em;} */
 
 input[type="submit"] {cursor: pointer}
+
+@media (max-width: 640px) {
+    header {
+        flex-direction: column; align-items: center;
+        justify-content: center;
+        height: 250px;
+        padding: 0;
+        width: 100%;        
+    }
+    nav {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 5% 0;
+    }
+    nav > a {
+        text-decoration: underline;
+        padding: 0 2.5% !important;
+    }
+    .morrowindMap {
+        width: 100%;
+    }
+
+}

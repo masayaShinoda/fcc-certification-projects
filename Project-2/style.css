@@ -36,7 +36,12 @@ form > div {
     /* width: 50%; */
 }
 textarea {
+    display: flex;
     max-width: 92%;
+    max-width: 35ch;
+}
+@media (max-width: 640px) {
+    textarea {max-width: 80%}
 }
 input, select, textarea {margin: 5px 0 20px 0; padding: 10px 5px;}
 p {margin-bottom: 5px}
